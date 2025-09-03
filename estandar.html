@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRR Genética Porcina</title>
+    <link rel="icon" type="favicon-16x16" sizes="16x16" href="imagenes/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="imagenes/53662796_572744373244395_9139458146941534208_n (1) (2).jpg" alt="Logo de la marca" class="logo-brand">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="padrillosDropdown" role="button" data-bs-toggle="dropdown">
+                            Padrillos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#estandar">Estándar</a></li>
+                            <li><a class="dropdown-item" href="#top">Top</a></li>
+                            <li><a class="dropdown-item" href="#elite">Élite</a></li>
+                            <li><a class="dropdown-item" href="#abuelo">Abuelos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#madres">Madres F1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-4">Genética Porcina de Excelencia</h1>
+            <p class="lead fs-4 mb-5">Producción y Comercialización de Machos Terminadores y Cachorras F1</p>
+            <a href="#estandar" class="btn btn-primary btn-lg">Ver Padrillos</a>
+        </div>
+    </div>
+
+    <!-- Sección Estándar -->
+    <section id="estandar" class="category-section">
+        <div class="container">
+            <h2 class="text-center mb-4 section-title">Padrillos Estándar</h2>
+            
+            <!-- Descripción de la categoría -->
+            <div class="category-description">
+                <h3><i class="fas fa-check-circle me-2 text-primary"></i>Padrillos Estándar</h3>
+                <p>Nuestros padrillos estándar ofrecen una excelente relación calidad-precio para productores que buscan mejorar su genética sin una inversión significativa. Seleccionados cuidadosamente para garantizar parámetros productivos superiores a la media, estos animales representan la solución ideal para mejorar la productividad de su granja.</p>
+                <p><strong>Características principales:</strong></p>
+                <ul>
+                    <li>Conversión alimenticia: 2.7 en promedio</li>
+                    <li>Ganancia diaria: 850g</li>
+                    <li>Musculatura: 58%</li>
+                    <li>Excelente adaptabilidad a diversos sistemas de producción</li>
+                </ul>
+            </div>
+            
+            <!-- Galería de cerdos estándar -->
+            <div class="gallery-grid">
+                <!-- Cerdo 1 -->
+                <div class="pig-card" id="estandar-001">
+                    <div class="pig-number">001</div>
+                    <img src="imagenes/standar.jpg" alt="Padrillo Estándar 001">
+                    <div class="pig-card-content">
+                        <h5>Duroc Premium</h5>
+                        <p><strong>Conversión:</strong> 2.7</p>
+                        <p><strong>Ganancia diaria:</strong> 850g</p>
+                        <button class="btn btn-primary buy-btn" data-category="estandar" data-id="001">Comprar</button>
+                    </div>
+                </div>
+                
+                <!-- Cerdo 2 -->
+                <div class="pig-card" id="estandar-002">
+                    <div class="pig-number">002</div>
+                    <img src="imagenes/standar2.jpg" alt="Padrillo Estándar 002">
+                    <div class="pig-card-content">
+                        <h5>York Robust</h5>
+                        <p><strong>Conversión:</strong> 2.65</p>
+                        <p><strong>Ganancia diaria:</strong> 870g</p>
+                        <button class="btn btn-primary buy-btn" data-category="estandar" data-id="002">Comprar</button>
+                    </div>
+                </div>
+                
+                <!-- Cerdo 3 -->
+                <div class="pig-card" id="estandar-003">
+                    <div class="pig-number">003</div>
+                    <img src="imagenes/standar3.jpg" alt="Padrillo Estándar 003">
+                    <div class="pig-card-content">
+                        <h5>Hampshire Select</h5>
+                        <p><strong>Conversión:</strong> 2.72</p>
+                        <p><strong>Ganancia diaria:</strong> 840g</p>
+                        <button class="btn btn-primary buy-btn" data-category="estandar" data-id="003">Comprar</button>
+                    </div>
+                </div>
+                
+                <!-- Cerdo 4 -->
+                <div class="pig-card" id="estandar-004">
+                    <div class="pig-number">004</div>
+                    <img src="imagenes/standar4.jpg" alt="Padrillo Estándar 004">
+                    <div class="pig-card-content">
+                        <h5>Landrace Pro</h5>
+                        <p><strong>Conversión:</strong> 2.68</p>
+                        <p><strong>Ganancia diaria:</strong> 860g</p>
+                        <button class="btn btn-primary buy-btn" data-category="estandar" data-id="004">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Resto del contenido (contacto, etc.) -->
+    <div class="three-columns-section" id="contacto">
+        <!-- ... contenido de contacto existente ... -->
+    </div>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/5492657545964" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <!-- Notificación -->
+    <div class="notification alert alert-success alert-dismissible fade show" role="alert">
+        <strong>¡Mensaje enviado!</strong> Nos pondremos en contacto a la brevedad.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    
+    <footer class="text-center">
+        <!-- ... pie de página existente ... -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRR Genética Porcina</title>
+    <link rel="icon" type="favicon-16x16" sizes="16x16" href="imagenes/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="imagenes/53662796_572744373244395_9139458146941534208_n (1) (2).jpg" alt="Logo de la marca" class="logo-brand">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="padrillosDropdown" role="button" data-bs-toggle="dropdown">
+                            Padrillos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#estandar">Estándar</a></li>
+                            <li><a class="dropdown-item" href="#top">Top</a></li>
+                            <li><a class="dropdown-item" href="#elite">Élite</a></li>
+                            <li><a class="dropdown-item" href="#abuelo">Abuelos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#madres">Madres F1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-4">Genética Porcina de Excelencia</h1>
+            <p class="lead fs-4 mb-5">Producción y Comercialización de Machos Terminadores y Cachorras F1</p>
+            <a href="#estandar" class="btn btn-primary btn-lg">Ver Padrillos</a>
+        </div>
+    </div>
+<!-- Sección Top -->
+    <section id="top" class="category-section">
+        <div class="container">
+            <h2 class="text-center mb-4 section-title">Padrillos Top</h2>
+            
+            <!-- Descripción de la categoría -->
+            <div class="category-description">
+                <h3><i class="fas fa-arrow-up me-2 text-success"></i>Padrillos Top</h3>
+                <p>Los padrillos Top representan la siguiente generación en genética porcina, ofreciendo un alto potencial genético con excelente relación costo-beneficio. Seleccionados por su desempeño superior en conversión alimenticia y velocidad de crecimiento, estos animales son ideales para productores que buscan maximizar su rentabilidad.</p>
+                <p><strong>Características principales:</strong></p>
+                <ul>
+                    <li>Conversión alimenticia: 2.5 en promedio</li>
+                    <li>Ganancia diaria: 900g</li>
+                    <li>Musculatura: 62%</li>
+                    <li>Excelente conformación corporal y calidad de canal</li>
+                </ul>
+            </div>
+            
+            <!-- Galería de cerdos top -->
+            <div class="gallery-grid">
+                <!-- Cerdo 1 -->
+                <div class="pig-card" id="top-101">
+                    <div class="pig-number">101</div>
+                    <img src="imagenes/top.jpg" alt="Padrillo Top 101">
+                    <div class="pig-card-content">
+                        <h5>Pietrain Plus</h5>
+                        <p><strong>Conversión:</strong> 2.5</p>
+                        <p><strong>Ganancia diaria:</strong> 900g</p>
+                        <button class="btn btn-primary buy-btn" data-category="top" data-id="101">Comprar</button>
+                    </div>
+                </div>
+                
+                <!-- Cerdo 2 -->
+                <div class="pig-card" id="top-102">
+                    <div class="pig-number">102</div>
+                    <img src="imagenes/top2.jpg" alt="Padrillo Top 102">
+                    <div class="pig-card-content">
+                        <h5>Duroc Gold</h5>
+                        <p><strong>Conversión:</strong> 2.48</p>
+                        <p><strong>Ganancia diaria:</strong> 920g</p>
+                        <button class="btn btn-primary buy-btn" data-category="top" data-id="102">Comprar</button>
+                    </div>
+                </div>
+                
+                <!-- Cerdo 3 -->
+                <div class="pig-card" id="top-103">
+                    <div class="pig-number">103</div>
+                    <img src="imagenes/top3.jpg" alt="Padrillo Top 103">
+                    <div class="pig-card-content">
+                        <h5>Hampshire Elite</h5>
+                        <p><strong>Conversión:</strong> 2.52</p>
+                        <p><strong>Ganancia diaria:</strong> 910g</p>
+                        <button class="btn btn-primary buy-btn" data-category="top" data-id="103">Comprar</button>
+                    </div>
+                </div>
+                
+                <!-- Cerdo 4 -->
+                <div class="pig-card" id="top-104">
+                    <div class="pig-number">104</div>
+                    <img src="imagenes/top4.jpg" alt="Padrillo Top 104">
+                    <div class="pig-card-content">
+                        <h5>York Premium</h5>
+                        <p><strong>Conversión:</strong> 2.45</p>
+                        <p><strong>Ganancia diaria:</strong> 930g</p>
+                        <button class="btn btn-primary buy-btn" data-category="top" data-id="104">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Resto del contenido (contacto, etc.) -->
+    <div class="three-columns-section" id="contacto">
+        <!-- ... contenido de contacto existente ... -->
+    </div>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/5492657545964" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <!-- Notificación -->
+    <div class="notification alert alert-success alert-dismissible fade show" role="alert">
+        <strong>¡Mensaje enviado!</strong> Nos pondremos en contacto a la brevedad.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    
+    <footer class="text-center">
+        <!-- ... pie de página existente ... -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
